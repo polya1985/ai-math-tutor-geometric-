@@ -22,7 +22,7 @@ with st.sidebar:
     api_key = st.text_input("輸入 Google API Key", type="password")
     
     # 鎖定 Gemini 3 Flash
-    model_choice = "gemini-3-flash" 
+    model_choice = "gemini-3-flash-preview" 
     st.success(f"當前模型：{model_choice}")
     
     st.divider()
